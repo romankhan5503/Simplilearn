@@ -23,7 +23,7 @@ public class StreamDemo {
 		
 		List<Integer> squresList1 = numbersList.stream().map(x -> x*x).
 				collect(Collectors.toList());
-		System.out.println("List of squared numbers: " + squresList);
+		System.out.println("List of squared numbers: " + squresList1);
 		
 		Set<Integer> squaresSet = new HashSet<>();
 		for(Integer i : numbersList) {
