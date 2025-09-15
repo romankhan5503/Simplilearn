@@ -6,7 +6,7 @@ public class ArithmeticExceptionDemo {
 	public static void main(String[] args) {
 		
 		try {
-			FileInputStream fi = new FileInputStream("d:/abc.txt");
+			FileInputStream fi = new FileInputStream("C:\\Users\\roman\\OneDrive\\Desktop");
 		}
 		catch (Exception e) {
 			System.out.println(e);
