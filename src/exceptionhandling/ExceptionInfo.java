@@ -10,10 +10,10 @@ public class ExceptionInfo {
 		}
 		catch (ArithmeticException e) {
 		
-			//e.printStackTrace();
-//			System.out.println(e);
+//			e.printStackTrace();
+			System.out.println(e);
 //			System.out.println(e.toString());
-			System.out.println(e.getMessage());
+//			System.out.println(e.getMessage());
 		}
 
 
