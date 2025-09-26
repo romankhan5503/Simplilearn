@@ -8,7 +8,7 @@ class Test extends Thread{
 	}
 }
 
-public class GetNameDemo {
+public class NamingConvention {
 
 	public static void main(String[] args) {
 		System.out.println("Hello");
