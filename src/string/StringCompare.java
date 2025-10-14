@@ -2,8 +2,22 @@ package string;
 
 public class StringCompare {
 
+	String name;
+	int age;
+	
+	StringCompare(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+	
 	public static void main(String[] args) {
 
+		StringCompare st = new StringCompare("Roman", 33);
+		StringCompare sr = new StringCompare("Roman", 33);
+		StringCompare st1 = st;
+		System.out.println(st.equals(sr));
+		System.out.println(st1.equals(st));
+		
 		// Using equals() method for case-sensitive comparison
 		String s1 = "Roman";
 		String s2 = "Khan";
@@ -15,6 +29,7 @@ public class StringCompare {
 		System.out.println(s1.equals(s3));
 		System.out.println(s1.equals(s4));
 		System.out.println(s1.equals(s5));
+		System.out.println(s3.equals(s4));
 
 		// Using equalsIgnoreCase() method for case-insensitive comparison
 		String s6 = "Roman";
