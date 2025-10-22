@@ -18,7 +18,7 @@ class Rectangle extends Shape{
 	}
 }
 
-public class Shape_Demo {
+public class Hierarchical {
 
 	public static void main(String[] args) {
 		Circle c = new Circle();
