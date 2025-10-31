@@ -18,7 +18,7 @@ class Dogsss implements Pet {
 }
 
 public class Hybrid {
-    public static void main(String[] args) {
+    public static void main(String_Demo1[] args) {
         Dogsss dss = new Dogsss();
         dss.eat();
         dss.play();

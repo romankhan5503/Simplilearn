@@ -18,7 +18,7 @@ public class OverMain {
 		System.out.println("Hello java 3 " + a);
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String_Demo1[] args) {
 		System.out.println("Hello Java");
 		OverMain om = new OverMain();
 		om.main();

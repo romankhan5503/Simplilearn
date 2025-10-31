@@ -18,7 +18,7 @@ class Dogarea extends Animalalia{
 
 public class Abstraction {
 
-	public static void main(String[] args) {
+	public static void main(String_Demo1[] args) {
 		Animalalia a = new Dogarea();
 		a.eat();
 		a.sound();

@@ -18,7 +18,7 @@ class DogLovers implements AnimalLover{
 
 public class AbstractionThroughInterface {
 
-	public static void main(String[] args) {
+	public static void main(String_Demo1[] args) {
 		AnimalLover a = new DogLovers();
 		a.sound();
 		a.eat();

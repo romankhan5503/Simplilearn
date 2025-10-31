@@ -2,7 +2,7 @@ package practice;
 
 public class Operator {
 
-	public static void main(String[] args) {
+	public static void main(String_Demo1[] args) {
 		
 		//Arithmetic operator
 		int a = 5, b = 10;

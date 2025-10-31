@@ -2,7 +2,7 @@ package practice;
 
 public class DecisionMakingStatements {
 
-	public static void main(String[] args) {
+	public static void main(String_Demo1[] args) {
 		int age = 20;
 		
 		//if / if-else 

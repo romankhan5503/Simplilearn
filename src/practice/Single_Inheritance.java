@@ -13,7 +13,7 @@ class B extends A{
 }
 public class Single_Inheritance {
 
-	public static void main(String[] args) {
+	public static void main(String_Demo1[] args) {
 		B b = new B();
 		b.eat();   //inherited method
 		b.show();  //own method

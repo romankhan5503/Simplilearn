@@ -19,7 +19,7 @@ public class Polymorphism extends Poly{
 		System.out.println("Showig...");
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String_Demo1[] args) {
 		Polymorphism p = new Polymorphism();
 //		p.show();
 		p.show(10);

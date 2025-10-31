@@ -25,7 +25,7 @@ class Dogss implements Animalss, Pet{
 
 public class Multiple {
 
-	public static void main(String[] args) {
+	public static void main(String_Demo1[] args) {
 		Dogss ds = new Dogss();
 		ds.bark();
 		ds.eat();

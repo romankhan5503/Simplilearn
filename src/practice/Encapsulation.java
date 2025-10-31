@@ -5,8 +5,8 @@ class Person {
 	private String name;
 	private int age;
 
-	public Person(String name, int age) {
-		this.name = name; // assign parameter to instance variable
+	public Person(String string, int age) {
+		this.name = string; // assign parameter to instance variable
 		this.age = age;
 	}
 
@@ -29,7 +29,7 @@ class Person {
 
 public class Encapsulation {
 
-	public static void main(String[] args) {
+	public static void main(String_Demo1[] args) {
 		Person p = new Person("Roman", 21);
 		System.out.println(p.getName());
 		System.out.println(p.getAge());
