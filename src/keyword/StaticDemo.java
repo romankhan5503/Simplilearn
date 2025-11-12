@@ -43,7 +43,7 @@ class Student{
 	}
 
 	public void setCollege(String college) {
-		this.college = college;
+		Student.college = college;
 	}
 		
 	public String toString() {

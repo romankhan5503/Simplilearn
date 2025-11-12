@@ -21,7 +21,7 @@ public class Predicates {
 		
 		Predicate<String> startsWithLetterR = x -> x.toLowerCase().charAt(0) == 'r';
 		Predicate<String> endsWithLetterN = x -> x.toLowerCase().charAt(x.length() - 1) == 'n';
-		Predicate<String> and = startsWithLetterR.and(endsWithLetterN);
+		//Predicate<String> and = startsWithLetterR.and(endsWithLetterN);
 		System.out.println(startsWithLetterR.test("Roman"));
 		System.out.println(endsWithLetterN.test("Arkem"));
 
